@@ -8,33 +8,60 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 220 26% 97%;
+    --foreground: 228 22% 26%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 228 22% 26%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 228 22% 26%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 262 52% 67%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 210 40% 94%;
+    --secondary-foreground: 228 22% 26%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 220 14% 96%;
+    --muted-foreground: 228 12% 52%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 200 35% 88%;
+    --accent-foreground: 228 22% 26%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --success: 142 69% 58%;
+    --success-foreground: 0 0% 100%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --warning: 48 96% 76%;
+    --warning-foreground: 32 25% 25%;
+
+    --destructive: 0 74% 65%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 262 52% 67%;
+
+    /* Wellness theme colors */
+    --wellness-primary: 262 52% 67%;
+    --wellness-secondary: 200 35% 88%;
+    --wellness-accent: 142 69% 58%;
+    --wellness-warm: 335 44% 85%;
+    
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(262 52% 67%), hsl(200 35% 88%));
+    --gradient-calm: linear-gradient(135deg, hsl(200 35% 88%), hsl(142 69% 58%));
+    --gradient-warm: linear-gradient(135deg, hsl(335 44% 85%), hsl(48 96% 76%));
+    --gradient-subtle: linear-gradient(180deg, hsl(220 26% 97%), hsl(220 14% 96%));
+    
+    /* Shadows */
+    --shadow-soft: 0 4px 12px hsl(228 22% 26% / 0.08);
+    --shadow-medium: 0 8px 24px hsl(228 22% 26% / 0.12);
+    --shadow-glow: 0 0 20px hsl(262 52% 67% / 0.3);
+    
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-spring: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 
     --radius: 0.5rem;
 
